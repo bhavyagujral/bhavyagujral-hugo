@@ -1,0 +1,35 @@
+baseurl = "http://example.org"
+title = "Hi! I’m Nick!"
+theme = "dimension"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+disableRSS = true
+
+[params]
+  title = "Hi! I’m Nick!"
+  description = '<!--[-->I work with startups around the world <!--]--><br />
+                <!--[-->to turn ideas into beautiful Android apps.<!--]-->'
+  logoimage = "/images/logo.jpg"
+
+[[params.social]]
+  medium = "facebook"
+  icon = "facebook"
+  link = "https://www.facebook.com/bhavya.gujral"
+
+[[params.social]]
+  medium = "instagram"
+  icon = "instagram"
+  link = "#"
+
+[[params.social]]
+  medium = "linkedin"
+  icon = "linkedin"
+  link = "https://www.linkedin.com/in/bhavya-gujral-22b283101/"
+
+[languages]
+[languages.en]
+languageName = "English"
+weight = 1
+title = "Hi! I’m Bhavya!"
+
